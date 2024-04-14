@@ -12,7 +12,7 @@ const updateScore = cookies => {
     const score = document.querySelector("#score span");
 
     score.innerText = cookies;
-    title.innerHTML = cookies + " cookies - Cookie Clicker"
+    title.innerHTML = cookies + "  biden haters - Trump Clicker"
 
     localStorage.setItem("cookies", cookies);
 }
