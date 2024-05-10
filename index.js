@@ -47,12 +47,12 @@ const cookieClicked = cookies => {
     if(storage.powerups.includes("upgrade-click")) {
         const multiplier = storage.powerups.filter(powerup => powerup == "upgrade-click").length;
         if(multiplier == 1){
-            newScore = scoreValue + 2;
+            newScore = scoreValue + 10000;
         } else {
-            newScore = scoreValue + (2 ** multiplier)
+            newScore = scoreValue + (10000 ** multiplier)
         }
     } else {
-        newScore = scoreValue + 1;
+        newScore = scoreValue + 10000;
     }
 
     updateScore(newScore);
